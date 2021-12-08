@@ -7,41 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80A848DA27591A9F00C8C946 /* ConfIT_TalksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848D927591A9F00C8C946 /* ConfIT_TalksApp.swift */; };
-		80A848DC27591A9F00C8C946 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848DB27591A9F00C8C946 /* ContentView.swift */; };
-		80A848DE27591AA000C8C946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A848DD27591AA000C8C946 /* Assets.xcassets */; };
-		80A848E127591AA000C8C946 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A848E027591AA000C8C946 /* Preview Assets.xcassets */; };
-		80A848F527591ACF00C8C946 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848E927591ACF00C8C946 /* Session.swift */; };
-		80A848F627591ACF00C8C946 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848EA27591ACF00C8C946 /* Media.swift */; };
-		80A848F727591ACF00C8C946 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848EB27591ACF00C8C946 /* Post.swift */; };
-		80A848F827591ACF00C8C946 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848ED27591ACF00C8C946 /* Array.swift */; };
-		80A848F927591ACF00C8C946 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848EE27591ACF00C8C946 /* Data.swift */; };
-		80A848FA27591ACF00C8C946 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848EF27591ACF00C8C946 /* String.swift */; };
-		80A848FB27591ACF00C8C946 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848F027591ACF00C8C946 /* DateFormatter.swift */; };
-		80A848FC27591ACF00C8C946 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848F227591ACF00C8C946 /* NetworkController.swift */; };
-		80A848FD27591ACF00C8C946 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A848F427591ACF00C8C946 /* ImageLoader.swift */; };
+		80187E202757150E00F58571 /* ConfIT_TalksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80187E1F2757150E00F58571 /* ConfIT_TalksApp.swift */; };
+		80187E242757151000F58571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80187E232757151000F58571 /* Assets.xcassets */; };
+		80187E272757151000F58571 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80187E262757151000F58571 /* Preview Assets.xcassets */; };
+		80187E302757161200F58571 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80187E2F2757161200F58571 /* NetworkController.swift */; };
+		80187E33275716F600F58571 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80187E32275716F600F58571 /* Session.swift */; };
+		80187E362757290600F58571 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80187E352757290600F58571 /* DateFormatter.swift */; };
+		80187E3A2757302300F58571 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80187E392757302300F58571 /* SessionsView.swift */; };
+		80187E3E275737A100F58571 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80187E3D275737A100F58571 /* String.swift */; };
+		80187E4327578F2900F58571 /* SessionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80187E4227578F2900F58571 /* SessionCardView.swift */; };
+		80187E45275791AF00F58571 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80187E44275791AF00F58571 /* Media.swift */; };
+		80187E472757C9B800F58571 /* SessionCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80187E462757C9B800F58571 /* SessionCardViewModel.swift */; };
+		804324A92757CFFC00361AD4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804324A82757CFFC00361AD4 /* ImageLoader.swift */; };
+		80B01A092757E84100AF3E13 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A082757E84100AF3E13 /* AppEnvironment.swift */; };
+		80B01A0C2757E89E00AF3E13 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A0B2757E89E00AF3E13 /* SessionDetailView.swift */; };
+		80B01A0F2757E8BC00AF3E13 /* MyAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A0E2757E8BC00AF3E13 /* MyAgenda.swift */; };
+		80B01A112757E8FE00AF3E13 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A102757E8FE00AF3E13 /* Array.swift */; };
+		80B01A132757E9D300AF3E13 /* SessionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A122757E9D300AF3E13 /* SessionsListView.swift */; };
+		80B01A192757F81900AF3E13 /* LoadingSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A182757F81900AF3E13 /* LoadingSpinnerView.swift */; };
+		80B01A1C2758063800AF3E13 /* SessionCardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A1B2758063800AF3E13 /* SessionCardConfigurator.swift */; };
+		80B01A1F2758CA1900AF3E13 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A1E2758CA1900AF3E13 /* NewsView.swift */; };
+		80B01A212758CA3F00AF3E13 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A202758CA3F00AF3E13 /* Post.swift */; };
+		80B01A262758D1D200AF3E13 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A252758D1D200AF3E13 /* NewsViewModel.swift */; };
+		80B01A282758D83F00AF3E13 /* NewsPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A272758D83F00AF3E13 /* NewsPostView.swift */; };
+		80B01A2A2758D84F00AF3E13 /* NewsPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A292758D84F00AF3E13 /* NewsPostViewModel.swift */; };
+		80B01A2D2758D8F500AF3E13 /* NewsPostConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A2C2758D8F500AF3E13 /* NewsPostConfigurator.swift */; };
+		80B01A2F2758DA3300AF3E13 /* NewsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A2E2758DA3300AF3E13 /* NewsConfigurator.swift */; };
+		80B01A312758DB9B00AF3E13 /* NewsPostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A302758DB9B00AF3E13 /* NewsPostDetailView.swift */; };
+		80B01A352758DF1A00AF3E13 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A342758DF1A00AF3E13 /* Data.swift */; };
+		80B01A382758DF7E00AF3E13 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B01A372758DF7E00AF3E13 /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		80A848D627591A9F00C8C946 /* ConfIT Talks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConfIT Talks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80A848D927591A9F00C8C946 /* ConfIT_TalksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfIT_TalksApp.swift; sourceTree = "<group>"; };
-		80A848DB27591A9F00C8C946 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		80A848DD27591AA000C8C946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80A848E027591AA000C8C946 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		80A848E227591AA000C8C946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80A848E927591ACF00C8C946 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		80A848EA27591ACF00C8C946 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
-		80A848EB27591ACF00C8C946 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		80A848ED27591ACF00C8C946 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		80A848EE27591ACF00C8C946 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		80A848EF27591ACF00C8C946 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		80A848F027591ACF00C8C946 /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
-		80A848F227591ACF00C8C946 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
-		80A848F427591ACF00C8C946 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		80187E1C2757150E00F58571 /* ConfIT Talks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConfIT Talks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80187E1F2757150E00F58571 /* ConfIT_TalksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfIT_TalksApp.swift; sourceTree = "<group>"; };
+		80187E232757151000F58571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80187E262757151000F58571 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80187E282757151000F58571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80187E2F2757161200F58571 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		80187E32275716F600F58571 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		80187E352757290600F58571 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		80187E392757302300F58571 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+		80187E3D275737A100F58571 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		80187E4227578F2900F58571 /* SessionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCardView.swift; sourceTree = "<group>"; };
+		80187E44275791AF00F58571 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		80187E462757C9B800F58571 /* SessionCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCardViewModel.swift; sourceTree = "<group>"; };
+		804324A82757CFFC00361AD4 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		80B01A082757E84100AF3E13 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		80B01A0B2757E89E00AF3E13 /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		80B01A0E2757E8BC00AF3E13 /* MyAgenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAgenda.swift; sourceTree = "<group>"; };
+		80B01A102757E8FE00AF3E13 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		80B01A122757E9D300AF3E13 /* SessionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsListView.swift; sourceTree = "<group>"; };
+		80B01A182757F81900AF3E13 /* LoadingSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinnerView.swift; sourceTree = "<group>"; };
+		80B01A1B2758063800AF3E13 /* SessionCardConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCardConfigurator.swift; sourceTree = "<group>"; };
+		80B01A1E2758CA1900AF3E13 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		80B01A202758CA3F00AF3E13 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		80B01A252758D1D200AF3E13 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		80B01A272758D83F00AF3E13 /* NewsPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPostView.swift; sourceTree = "<group>"; };
+		80B01A292758D84F00AF3E13 /* NewsPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPostViewModel.swift; sourceTree = "<group>"; };
+		80B01A2C2758D8F500AF3E13 /* NewsPostConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPostConfigurator.swift; sourceTree = "<group>"; };
+		80B01A2E2758DA3300AF3E13 /* NewsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsConfigurator.swift; sourceTree = "<group>"; };
+		80B01A302758DB9B00AF3E13 /* NewsPostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPostDetailView.swift; sourceTree = "<group>"; };
+		80B01A342758DF1A00AF3E13 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		80B01A372758DF7E00AF3E13 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80A848D327591A9F00C8C946 /* Frameworks */ = {
+		80187E192757150E00F58571 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,93 +83,197 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80A848CD27591A9F00C8C946 = {
+		80187E132757150E00F58571 = {
 			isa = PBXGroup;
 			children = (
-				80A848D827591A9F00C8C946 /* ConfIT Talks */,
-				80A848D727591A9F00C8C946 /* Products */,
+				80187E1E2757150E00F58571 /* ConfIT Talks */,
+				80187E1D2757150E00F58571 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		80A848D727591A9F00C8C946 /* Products */ = {
+		80187E1D2757150E00F58571 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80A848D627591A9F00C8C946 /* ConfIT Talks.app */,
+				80187E1C2757150E00F58571 /* ConfIT Talks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80A848D827591A9F00C8C946 /* ConfIT Talks */ = {
+		80187E1E2757150E00F58571 /* ConfIT Talks */ = {
 			isa = PBXGroup;
 			children = (
-				80A848F327591ACF00C8C946 /* Utils */,
-				80A848EC27591ACF00C8C946 /* Extensions */,
-				80A848E827591ACF00C8C946 /* Models */,
-				80A848F127591ACF00C8C946 /* Network */,
-				80A848D927591A9F00C8C946 /* ConfIT_TalksApp.swift */,
-				80A848DB27591A9F00C8C946 /* ContentView.swift */,
-				80A848DD27591AA000C8C946 /* Assets.xcassets */,
-				80A848E227591AA000C8C946 /* Info.plist */,
-				80A848DF27591AA000C8C946 /* Preview Content */,
+				80187E1F2757150E00F58571 /* ConfIT_TalksApp.swift */,
+				80B01A082757E84100AF3E13 /* AppEnvironment.swift */,
+				804324A72757CFF600361AD4 /* Utils */,
+				80187E34275728FF00F58571 /* Extensions */,
+				80187E31275716E800F58571 /* Models */,
+				80187E2E2757156F00F58571 /* Network */,
+				80187E3727572FEB00F58571 /* Scenes */,
+				80B01A152757E9DC00AF3E13 /* Views */,
+				80187E232757151000F58571 /* Assets.xcassets */,
+				80187E282757151000F58571 /* Info.plist */,
+				80187E252757151000F58571 /* Preview Content */,
 			);
 			path = "ConfIT Talks";
 			sourceTree = "<group>";
 		};
-		80A848DF27591AA000C8C946 /* Preview Content */ = {
+		80187E252757151000F58571 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				80A848E027591AA000C8C946 /* Preview Assets.xcassets */,
+				80187E262757151000F58571 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		80A848E827591ACF00C8C946 /* Models */ = {
+		80187E2E2757156F00F58571 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				80A848E927591ACF00C8C946 /* Session.swift */,
-				80A848EA27591ACF00C8C946 /* Media.swift */,
-				80A848EB27591ACF00C8C946 /* Post.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		80A848EC27591ACF00C8C946 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				80A848ED27591ACF00C8C946 /* Array.swift */,
-				80A848EE27591ACF00C8C946 /* Data.swift */,
-				80A848EF27591ACF00C8C946 /* String.swift */,
-				80A848F027591ACF00C8C946 /* DateFormatter.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		80A848F127591ACF00C8C946 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				80A848F227591ACF00C8C946 /* NetworkController.swift */,
+				80187E2F2757161200F58571 /* NetworkController.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		80A848F327591ACF00C8C946 /* Utils */ = {
+		80187E31275716E800F58571 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				80A848F427591ACF00C8C946 /* ImageLoader.swift */,
+				80187E32275716F600F58571 /* Session.swift */,
+				80187E44275791AF00F58571 /* Media.swift */,
+				80B01A202758CA3F00AF3E13 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80187E34275728FF00F58571 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80187E352757290600F58571 /* DateFormatter.swift */,
+				80187E3D275737A100F58571 /* String.swift */,
+				80B01A102757E8FE00AF3E13 /* Array.swift */,
+				80B01A342758DF1A00AF3E13 /* Data.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80187E3727572FEB00F58571 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				80187E3827572FF000F58571 /* Sessions */,
+				80B01A0D2757E8B100AF3E13 /* MyAgenda */,
+				80B01A1D2758CA0B00AF3E13 /* News */,
+				80B01A362758DF7300AF3E13 /* Contact */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		80187E3827572FF000F58571 /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				80187E392757302300F58571 /* SessionsView.swift */,
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
+		804324A72757CFF600361AD4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				804324A82757CFFC00361AD4 /* ImageLoader.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		80B01A0A2757E89500AF3E13 /* SessionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				80B01A0B2757E89E00AF3E13 /* SessionDetailView.swift */,
+			);
+			path = SessionDetail;
+			sourceTree = "<group>";
+		};
+		80B01A0D2757E8B100AF3E13 /* MyAgenda */ = {
+			isa = PBXGroup;
+			children = (
+				80B01A0E2757E8BC00AF3E13 /* MyAgenda.swift */,
+			);
+			path = MyAgenda;
+			sourceTree = "<group>";
+		};
+		80B01A152757E9DC00AF3E13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80B01A162757F7FE00AF3E13 /* SessionsList */,
+				80B01A0A2757E89500AF3E13 /* SessionDetail */,
+				80B01A172757F80700AF3E13 /* LoadingSpinner */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		80B01A162757F7FE00AF3E13 /* SessionsList */ = {
+			isa = PBXGroup;
+			children = (
+				80B01A1A2758062800AF3E13 /* SessionCard */,
+				80B01A122757E9D300AF3E13 /* SessionsListView.swift */,
+			);
+			path = SessionsList;
+			sourceTree = "<group>";
+		};
+		80B01A172757F80700AF3E13 /* LoadingSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				80B01A182757F81900AF3E13 /* LoadingSpinnerView.swift */,
+			);
+			path = LoadingSpinner;
+			sourceTree = "<group>";
+		};
+		80B01A1A2758062800AF3E13 /* SessionCard */ = {
+			isa = PBXGroup;
+			children = (
+				80B01A1B2758063800AF3E13 /* SessionCardConfigurator.swift */,
+				80187E462757C9B800F58571 /* SessionCardViewModel.swift */,
+				80187E4227578F2900F58571 /* SessionCardView.swift */,
+			);
+			path = SessionCard;
+			sourceTree = "<group>";
+		};
+		80B01A1D2758CA0B00AF3E13 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				80B01A2E2758DA3300AF3E13 /* NewsConfigurator.swift */,
+				80B01A252758D1D200AF3E13 /* NewsViewModel.swift */,
+				80B01A1E2758CA1900AF3E13 /* NewsView.swift */,
+				80B01A2B2758D8E000AF3E13 /* NewsPost */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		80B01A2B2758D8E000AF3E13 /* NewsPost */ = {
+			isa = PBXGroup;
+			children = (
+				80B01A2C2758D8F500AF3E13 /* NewsPostConfigurator.swift */,
+				80B01A292758D84F00AF3E13 /* NewsPostViewModel.swift */,
+				80B01A272758D83F00AF3E13 /* NewsPostView.swift */,
+				80B01A302758DB9B00AF3E13 /* NewsPostDetailView.swift */,
+			);
+			path = NewsPost;
+			sourceTree = "<group>";
+		};
+		80B01A362758DF7300AF3E13 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				80B01A372758DF7E00AF3E13 /* ContactView.swift */,
+			);
+			path = Contact;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80A848D527591A9F00C8C946 /* ConfIT Talks */ = {
+		80187E1B2757150E00F58571 /* ConfIT Talks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80A848E527591AA000C8C946 /* Build configuration list for PBXNativeTarget "ConfIT Talks" */;
+			buildConfigurationList = 80187E2B2757151000F58571 /* Build configuration list for PBXNativeTarget "ConfIT Talks" */;
 			buildPhases = (
-				80A848D227591A9F00C8C946 /* Sources */,
-				80A848D327591A9F00C8C946 /* Frameworks */,
-				80A848D427591A9F00C8C946 /* Resources */,
+				80187E182757150E00F58571 /* Sources */,
+				80187E192757150E00F58571 /* Frameworks */,
+				80187E1A2757150E00F58571 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,24 +281,24 @@
 			);
 			name = "ConfIT Talks";
 			productName = "ConfIT Talks";
-			productReference = 80A848D627591A9F00C8C946 /* ConfIT Talks.app */;
+			productReference = 80187E1C2757150E00F58571 /* ConfIT Talks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		80A848CE27591A9F00C8C946 /* Project object */ = {
+		80187E142757150E00F58571 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					80A848D527591A9F00C8C946 = {
+					80187E1B2757150E00F58571 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 80A848D127591A9F00C8C946 /* Build configuration list for PBXProject "ConfIT Talks" */;
+			buildConfigurationList = 80187E172757150E00F58571 /* Build configuration list for PBXProject "ConfIT Talks" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,51 +306,67 @@
 				en,
 				Base,
 			);
-			mainGroup = 80A848CD27591A9F00C8C946;
-			productRefGroup = 80A848D727591A9F00C8C946 /* Products */;
+			mainGroup = 80187E132757150E00F58571;
+			productRefGroup = 80187E1D2757150E00F58571 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80A848D527591A9F00C8C946 /* ConfIT Talks */,
+				80187E1B2757150E00F58571 /* ConfIT Talks */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80A848D427591A9F00C8C946 /* Resources */ = {
+		80187E1A2757150E00F58571 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A848E127591AA000C8C946 /* Preview Assets.xcassets in Resources */,
-				80A848DE27591AA000C8C946 /* Assets.xcassets in Resources */,
+				80187E272757151000F58571 /* Preview Assets.xcassets in Resources */,
+				80187E242757151000F58571 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80A848D227591A9F00C8C946 /* Sources */ = {
+		80187E182757150E00F58571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A848FC27591ACF00C8C946 /* NetworkController.swift in Sources */,
-				80A848FB27591ACF00C8C946 /* DateFormatter.swift in Sources */,
-				80A848F927591ACF00C8C946 /* Data.swift in Sources */,
-				80A848DC27591A9F00C8C946 /* ContentView.swift in Sources */,
-				80A848DA27591A9F00C8C946 /* ConfIT_TalksApp.swift in Sources */,
-				80A848FD27591ACF00C8C946 /* ImageLoader.swift in Sources */,
-				80A848F627591ACF00C8C946 /* Media.swift in Sources */,
-				80A848F827591ACF00C8C946 /* Array.swift in Sources */,
-				80A848F527591ACF00C8C946 /* Session.swift in Sources */,
-				80A848FA27591ACF00C8C946 /* String.swift in Sources */,
-				80A848F727591ACF00C8C946 /* Post.swift in Sources */,
+				80187E33275716F600F58571 /* Session.swift in Sources */,
+				80187E3A2757302300F58571 /* SessionsView.swift in Sources */,
+				804324A92757CFFC00361AD4 /* ImageLoader.swift in Sources */,
+				80B01A2D2758D8F500AF3E13 /* NewsPostConfigurator.swift in Sources */,
+				80B01A382758DF7E00AF3E13 /* ContactView.swift in Sources */,
+				80B01A192757F81900AF3E13 /* LoadingSpinnerView.swift in Sources */,
+				80B01A0C2757E89E00AF3E13 /* SessionDetailView.swift in Sources */,
+				80187E202757150E00F58571 /* ConfIT_TalksApp.swift in Sources */,
+				80187E45275791AF00F58571 /* Media.swift in Sources */,
+				80B01A112757E8FE00AF3E13 /* Array.swift in Sources */,
+				80B01A2F2758DA3300AF3E13 /* NewsConfigurator.swift in Sources */,
+				80B01A2A2758D84F00AF3E13 /* NewsPostViewModel.swift in Sources */,
+				80B01A1F2758CA1900AF3E13 /* NewsView.swift in Sources */,
+				80B01A092757E84100AF3E13 /* AppEnvironment.swift in Sources */,
+				80B01A1C2758063800AF3E13 /* SessionCardConfigurator.swift in Sources */,
+				80187E302757161200F58571 /* NetworkController.swift in Sources */,
+				80187E3E275737A100F58571 /* String.swift in Sources */,
+				80187E4327578F2900F58571 /* SessionCardView.swift in Sources */,
+				80B01A0F2757E8BC00AF3E13 /* MyAgenda.swift in Sources */,
+				80B01A262758D1D200AF3E13 /* NewsViewModel.swift in Sources */,
+				80187E362757290600F58571 /* DateFormatter.swift in Sources */,
+				80187E472757C9B800F58571 /* SessionCardViewModel.swift in Sources */,
+				80B01A282758D83F00AF3E13 /* NewsPostView.swift in Sources */,
+				80B01A132757E9D300AF3E13 /* SessionsListView.swift in Sources */,
+				80B01A312758DB9B00AF3E13 /* NewsPostDetailView.swift in Sources */,
+				80B01A352758DF1A00AF3E13 /* Data.swift in Sources */,
+				80B01A212758CA3F00AF3E13 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		80A848E327591AA000C8C946 /* Debug */ = {
+		80187E292757151000F58571 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +427,7 @@
 			};
 			name = Debug;
 		};
-		80A848E427591AA000C8C946 /* Release */ = {
+		80187E2A2757151000F58571 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +482,7 @@
 			};
 			name = Release;
 		};
-		80A848E627591AA000C8C946 /* Debug */ = {
+		80187E2C2757151000F58571 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -345,7 +497,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "es.confit.ConfIT-Talks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.ConfIT-Talks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -353,7 +505,7 @@
 			};
 			name = Debug;
 		};
-		80A848E727591AA000C8C946 /* Release */ = {
+		80187E2D2757151000F58571 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -368,7 +520,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "es.confit.ConfIT-Talks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.ConfIT-Talks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -379,25 +531,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80A848D127591A9F00C8C946 /* Build configuration list for PBXProject "ConfIT Talks" */ = {
+		80187E172757150E00F58571 /* Build configuration list for PBXProject "ConfIT Talks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80A848E327591AA000C8C946 /* Debug */,
-				80A848E427591AA000C8C946 /* Release */,
+				80187E292757151000F58571 /* Debug */,
+				80187E2A2757151000F58571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80A848E527591AA000C8C946 /* Build configuration list for PBXNativeTarget "ConfIT Talks" */ = {
+		80187E2B2757151000F58571 /* Build configuration list for PBXNativeTarget "ConfIT Talks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80A848E627591AA000C8C946 /* Debug */,
-				80A848E727591AA000C8C946 /* Release */,
+				80187E2C2757151000F58571 /* Debug */,
+				80187E2D2757151000F58571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 80A848CE27591A9F00C8C946 /* Project object */;
+	rootObject = 80187E142757150E00F58571 /* Project object */;
 }
